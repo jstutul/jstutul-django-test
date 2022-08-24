@@ -25,7 +25,7 @@ SECRET_KEY = 'c1jfu@tb=t$%ip7%64$0sjpo&(twbugtm9!@%18#3_b!7uw#^6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jstutul30.herokuapp.com']
+ALLOWED_HOSTS = ['jstutul30.herokuapp.com','www.jstutul30.herokuapp.com']
 
 
 # Application definition
@@ -114,10 +114,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 STATIC_URL = '/static/'
-STATIC_ROOT  = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT  = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-
